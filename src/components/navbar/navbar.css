@@ -1,0 +1,33 @@
+.nav{
+    width: 98%;
+    height: 10vh;
+    margin: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.left-nav{
+    width: 30%;
+}
+.right-nav{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-item{
+    font-style: normal;
+    font-size: 18px;
+}
+.one{
+font-weight: 700;
+}
