@@ -11,7 +11,7 @@ function App() {
      <About />
      <Service />
      <Healthcare />
-     {/* <MobileApp /> */}
+     <MobileApp />
     </div>
   );
 }
