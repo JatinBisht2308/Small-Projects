@@ -27,10 +27,23 @@
 }
 .cards {
   width: 100%;
-  /* background-color: black; */
   display: flex;
   justify-content: space-evenly;
   margin-top: 5vh;
+  z-index: 100;
+}
+.service_vector1{
+    width: 45%;
+    position: absolute;
+    left: 1px;
+    margin-top: 15vh;
+    z-index: 0.5;
+}
+.service_vector2{
+    position: absolute;
+    right: 12%;
+    margin-top: 15vh;
+    z-index: 0.5;
 }
 .serviceCard {
   display: flex;
@@ -62,7 +75,7 @@
     line-height: 50px;
     font-family: 'Muli';
     font-weight: 550;
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 .service_lm:hover{
     color: white;

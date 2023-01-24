@@ -8,6 +8,9 @@ import Card3 from '../../assets/card3.png'
 import Card4 from '../../assets/card4.png'
 import Card5 from '../../assets/card5.png'
 import Card6 from '../../assets/card6.png'
+import serviceVector1 from '../../assets/service_vector.png';
+import serviceVector2 from '../../assets/serviceVector2.png';
+
 const Services = () => {
   console.log(cardData[0].img);
   return (
@@ -37,6 +40,8 @@ const Services = () => {
           desc={cardData[2].desc}
         />
      </div>
+     <img src={serviceVector1} alt="" className="service_vector1" />
+     <img src={serviceVector2} alt="" className="service_vector2" />
      <div className="cards">   
         <ServiceCard
           title={cardData[3].title}
