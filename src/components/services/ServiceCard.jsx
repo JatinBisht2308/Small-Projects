@@ -1,11 +1,14 @@
 import React from 'react'
 import './services.css'
-const ServiceCard = () => {
+
+
+const ServiceCard = (props)=> {
+    console.log(props.imgSrc);
   return (
     <div className='serviceCard'>
-        <img src="" alt="" />
-        <h3>Search doctor</h3>
-        <small>Choose your doctor from thousands of specialist, general, and trusted hospitals</small>
+        <img src={props.imgSrc} alt="" />
+        <h3>{props.title}</h3>
+        <small>{props.desc}</small>
     </div>
   )
 }
