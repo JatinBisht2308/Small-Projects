@@ -36,6 +36,8 @@ const Services = () => {
           imgSrc={Card3}
           desc={cardData[2].desc}
         />
+     </div>
+     <div className="cards">   
         <ServiceCard
           title={cardData[3].title}
           imgSrc={Card4}
@@ -52,6 +54,7 @@ const Services = () => {
           desc={cardData[5].desc}
         />
       </div>
+      <button className="service_lm">Learn more</button>
     </div>
   );
 };

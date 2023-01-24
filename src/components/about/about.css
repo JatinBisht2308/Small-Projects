@@ -54,7 +54,7 @@
     cursor: pointer;
     color: #458FF6;
     box-shadow: 0 0 80px rgba(255,255,255,0.5);
-    transition: 1s;
+    transition: 0.5s;
 }
 .right-about{
     width: 40%;

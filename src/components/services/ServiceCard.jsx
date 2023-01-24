@@ -1,7 +1,6 @@
 import React from 'react'
 import './services.css'
 
-
 const ServiceCard = (props)=> {
     console.log(props.imgSrc);
   return (
