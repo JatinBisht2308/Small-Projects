@@ -8,6 +8,15 @@
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
+.backimg-about{
+    width: 80px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute; 
+    left: 2px;
+    top: 20%;
+}
 .left-about{
     width: 29.9%;
     display: flex;
@@ -37,6 +46,7 @@
     font-size: 18px;
     line-height: 50px;
     font-family: 'Muli';
+    font-weight: 550;
 }
 .left-about >button:hover{
     background-color: white;
