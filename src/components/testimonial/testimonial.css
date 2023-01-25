@@ -1,0 +1,92 @@
+.Testimonial {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.testimonial_container {
+  width: 62%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  padding: 2.5% 4% 5% 4%;
+}
+.testi_container_upper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 6%;
+}
+.testi_heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+.testi_underline {
+  width: 56px;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 6px;
+}
+.testi_container_bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.testi_left {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.testi_right {
+  width: 42%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.customer_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.testi_left > img {
+  width: 141px;
+  height: 141px;
+}
+.customer_name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: left;
+}
+.customer_company {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: left;
+}
+.customer_review {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+  mix-blend-mode: normal;
+  text-align: left;
+}
