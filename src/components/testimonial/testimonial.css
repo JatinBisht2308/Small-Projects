@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 200px;
-
+  flex-direction: column;
 }
 .testimonial_container {
   width: 62%;
@@ -90,4 +90,62 @@
   color: rgba(255, 255, 255, 0.9);
   mix-blend-mode: normal;
   text-align: left;
+}
+.bottom_testi {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5%;
+}
+.bottom_testi > button {
+  border: none;
+  background: none;
+  outline: none;
+  color: #67c3f3;
+  font-size: 25px;
+}
+.bottom_testi > button:hover {
+  color: #5a98f2;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.bottom_testi > .right_slide{
+  color: #5a98f2;
+}
+.testi_dots{
+  width: 40%;
+  height: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px 1% 5px 1%;
+}
+.dot{
+  width: 10px;
+  height: 10px;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center; 
+  background-color: #67c3f3;
+  border-radius: 50%;
+}
+.dot:hover{
+  background-color: #5a98f2;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.dot.highlight{
+  background-color: #5a98f2;
+}
+.testi_vector1{
+  position: absolute;
+  right: 12%;
+  margin-bottom: 21%;
+}
+.testi_vector2{
+position: absolute;
+left: 12%;
+margin-top: 20%;
+z-index: 0.1;
 }
