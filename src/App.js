@@ -5,6 +5,8 @@ import  Service from './components/services/Services';
 import Healthcare from './components/healthcare/Healthcare';
 import MobileApp from './components/mobileApp/MobileApp';
 import Testimonial from './components/testimonial/Testimonial';
+import Article from './components/articles/Article';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
      <Healthcare />
      <MobileApp />
      <Testimonial />
+     <Article />
     </div>
   );
 }
