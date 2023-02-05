@@ -11,7 +11,7 @@ const ArticleCard = (props) => {
         <h4>{props.heading}</h4>
         <p>{props.para}</p>
         <button>
-          Read more <BsArrowRight />
+          Read more <BsArrowRight  className="arrow"/>
         </button>
       </div>
     </div>
