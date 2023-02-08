@@ -3,6 +3,8 @@ import ArticleCard from "./ArticleCard";
 import Blog1 from "../../assets/blog1.png";
 import Blog2 from "../../assets/blog2.png";
 import Blog3 from "../../assets/blog3.png";
+import BlogVector1 from "../../assets/blog_vector_left.png";
+import BlogVector2 from "../../assets/blog_vector_right.png";
 const Article = () => {
   const articleHeading = [
     {
@@ -22,6 +24,8 @@ const Article = () => {
     <div className="Article">
       <h2>Check our latest article</h2>
       <div className="article_underline"></div>
+      <img src={BlogVector1} className="blog-vec one" alt="" />
+      <img src={BlogVector2} className="blog-vec two" alt="" />
       <div className="articleCards">
         <ArticleCard
           image={Blog1}
