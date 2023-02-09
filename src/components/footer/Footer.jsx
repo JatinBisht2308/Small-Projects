@@ -1,14 +1,14 @@
 import React from "react";
-
+import './footer.css';
 const Footer = () => {
   return (
     <div className="Footer">
       <div className="left-footer">
         <h2>Trafalgar</h2>
-        <p>
+        <small>
           Trafalgar provides progressive, and affordable healthcare, accessible
           on mobile and online for everyone
-        </p>
+        </small>
         <small>©Trafalgar PTY LTD 2020. All rights reserved.</small>
       </div>
       <div className="right-footer">
