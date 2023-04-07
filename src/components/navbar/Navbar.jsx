@@ -1,6 +1,8 @@
 import React from 'react'
 import './navbar.css'
 import Logo from '../../assets/logo.png'
+import darkMode from "../../assets/dark_mode.png";
+import lightMode from "../../assets/light_mode.png";
 const Navbar = () => {
   return (
     <div className="nav">
@@ -15,6 +17,7 @@ const Navbar = () => {
           <li className="nav-item four">Testimonial</li>
           <li className="nav-item five">About us</li>
         </ul>
+       <button className='mode_changer'></button>
       </div>
       </div>
   )
