@@ -29,6 +29,7 @@
     font-size: 48px;
     margin-bottom: 0px !important;
     font-weight: 700;
+    color: var(--bold-text-color);
 }
 .left-about > p{
     text-align: left;
@@ -49,7 +50,7 @@
     font-weight: 550;
 }
 .left-about >button:hover{
-    background-color: white;
+    background-color: var(--card-bg-color);
     border: 2px solid #458FF6;
     cursor: pointer;
     color: #458FF6;
