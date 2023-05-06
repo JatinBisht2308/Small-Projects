@@ -7,10 +7,13 @@ const Navbar = () => {
   const [mode,setMode] = useState(darkMode);
   const changeMode = () =>{
     if(mode === darkMode){
+      document.body.className = "dark-mode";
       setMode(lightMode);
     }else{
+      document.body.className = "light-mode";
       setMode(darkMode);
     }
+
   }
   return (
     <div className="nav">

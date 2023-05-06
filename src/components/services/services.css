@@ -54,7 +54,7 @@
   height: 30vh;
   padding: 20px;
   background: #ffffff;
-  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  box-shadow: 10px 40px 50px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 }
 .serviceCard > small {

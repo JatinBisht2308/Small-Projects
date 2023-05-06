@@ -31,6 +31,19 @@
 .App-link {
   color: #61dafb;
 }
+.dark-mode{
+  --background-color:#21262D; 
+  --bold-text-color: #FFFFFF;
+  --normal-text-color: #7D7987;
+  --card-bg-color: #3E424E;
+}
+.light-mode{
+  --background-color:#F5F5F5; 
+  --bold-text-color: #000000;
+  --normal-text-color: #7D7987;
+  --card-bg-color: #ffffff;
+}
+
 
 @keyframes App-logo-spin {
   from {
