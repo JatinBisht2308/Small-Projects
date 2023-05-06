@@ -7,6 +7,7 @@
   margin-bottom: 12rem;
 }
 .Article > h2 {
+  color: var(--bold-text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -15,7 +16,7 @@
 .article_underline {
   width: 56px;
   height: 2px;
-  background: black;
+  background: var(--bold-text-color);
   border-radius: 5px;
   margin-bottom: 1rem;
 }
@@ -34,9 +35,9 @@
 .ArticleCard {
   display: flex;
   flex-direction: column;
-  box-shadow: 10px 40px 50px rgba(0, 0, 0, 0.25);
+  box-shadow: var(--box-shadow);
   border-radius: 20px;
-  background: white;
+  background: var(--card-bg-color);
   width: 30%;
   overflow: hidden;
   z-index: 100;
@@ -48,6 +49,7 @@
   padding: 0% 12% 1% 8%;
 }
 .article_content > h4 {
+  color: var(--bold-text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -89,11 +91,10 @@
     line-height: 50px;
     font-family: 'Muli';
     font-weight: 550;
-    background-color: white;
+    background-color: var(--background-color);
     border: 2px solid #458FF6;
     cursor: pointer;
     color: #458FF6;
-    box-shadow: 0 0 80px rgba(255,255,255,0.5);
     transition: 0.5s;
 }
 .viewAll:hover{
@@ -101,7 +102,6 @@
     border: 0px solid transparent;
     cursor: pointer;
     color: white;
-    box-shadow: 0 0 80px rgba(255,255,255,0.5);
     transition: 0.5s;
 }
 /* for the vectors */
