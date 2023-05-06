@@ -1,9 +1,17 @@
-import React from 'react'
-import './navbar.css'
-import Logo from '../../assets/logo.png'
+import {React,useState} from "react";
+import "./navbar.css";
+import Logo from "../../assets/logo.png";
 import darkMode from "../../assets/dark_mode.png";
 import lightMode from "../../assets/light_mode.png";
 const Navbar = () => {
+  const [mode,setMode] = useState(darkMode);
+  const changeMode = () =>{
+    if(mode === darkMode){
+      setMode(lightMode);
+    }else{
+      setMode(darkMode);
+    }
+  }
   return (
     <div className="nav">
       <div className="left-nav">
@@ -17,10 +25,12 @@ const Navbar = () => {
           <li className="nav-item four">Testimonial</li>
           <li className="nav-item five">About us</li>
         </ul>
-       <button className='mode_changer'></button>
+        <button className="mode_changer" variant="contained">
+          <img src={mode} alt="" onClick={changeMode} />
+        </button>
       </div>
-      </div>
-  )
-}
+    </div>
+  );
+};
 
-export default Navbar
+export default Navbar;
