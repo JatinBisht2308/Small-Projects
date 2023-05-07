@@ -3,7 +3,8 @@ import './footer.css';
 const Footer = () => {
   return (
     <div className="Footer">
-      <div className="left-footer">
+     <div className="Footer__container">
+     <div className="left-footer">
         <h2>Trafalgar</h2>
         <small>
           Trafalgar provides progressive, and affordable healthcare, accessible
@@ -39,6 +40,7 @@ const Footer = () => {
             <li>How it works</li>
           </ul>
         </div>
+      </div>
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ function App() {
      <MobileApp />
      <Testimonial />
      <Article />
-     <Footer />
+     {/* <Footer /> */}
     </div>
   );
 }
