@@ -1,4 +1,4 @@
-import {React,useState} from "react";
+import {React,useState,useEffect} from "react";
 import "./navbar.css";
 import Logo from "../../assets/logo.png";
 import darkMode from "../../assets/dark_mode.png";
@@ -8,13 +8,24 @@ const Navbar = () => {
   const changeMode = () =>{
     if(mode === darkMode){
       document.body.className = "dark-mode";
+      localStorage.setItem("mode","dark");
+      setMode(lightMode);
+    }else{
+      document.body.className = "light-mode";
+      localStorage.setItem("mode","light");
+      setMode(darkMode);
+    }
+  }
+  // save this in local storage so that it will be saved even after refresh
+  useEffect(() => {
+    if(localStorage.getItem("mode") === "dark"){
+      document.body.className = "dark-mode";
       setMode(lightMode);
     }else{
       document.body.className = "light-mode";
       setMode(darkMode);
     }
-
-  }
+  }, []);
   return (
     <div className="nav">
       <div className="left-nav">

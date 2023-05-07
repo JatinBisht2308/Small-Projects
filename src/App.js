@@ -6,7 +6,6 @@ import Healthcare from './components/healthcare/Healthcare';
 import MobileApp from './components/mobileApp/MobileApp';
 import Testimonial from './components/testimonial/Testimonial';
 import Article from './components/articles/Article';
-import Footer from './components/footer/Footer';
 
 function App() {
   return (

@@ -1,11 +1,13 @@
 .Footer {
+
   background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
   color: white;
 }
 .Footer__container{
-  max-width: 1520px;
+  /* width: 98%; */
+  max-width: 1080px;
   display: flex;
-  padding: 4% 21%;
+  padding: 5% 12%;
   justify-content: space-between;
   align-items: center;
   margin-right: auto;
