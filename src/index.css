@@ -8,7 +8,9 @@ body {
   font-family: 'Muli';
   background-color: var(--background-color);
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
