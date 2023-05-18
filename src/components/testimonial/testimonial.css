@@ -43,6 +43,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  animation: fadeOut 0.45s forwards ease-in-out;
 }
 .testi_left {
   width: 40%;
@@ -148,4 +149,26 @@ position: absolute;
 left: 12%;
 margin-top: 20%;
 z-index: 0.1;
+}
+
+@keyframes fadeOut{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  70%{
+    opacity: 0.7;
+    transform: scale(1.07);
+  }
+  90%{
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
 }
