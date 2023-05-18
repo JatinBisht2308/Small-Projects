@@ -10,10 +10,12 @@ const Navbar = () => {
       document.body.className = "dark-mode";
       localStorage.setItem("mode","dark");
       setMode(lightMode);
+      window.location.reload(true);
     }else{
       document.body.className = "light-mode";
       localStorage.setItem("mode","light");
       setMode(darkMode);
+      window.location.reload(true);
     }
   }
   // save this in local storage so that it will be saved even after refresh

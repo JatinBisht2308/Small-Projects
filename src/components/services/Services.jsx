@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState, useEffect} from "react";
 import "./services.css";
 import ServiceCard from "./ServiceCard";
 import { cardData } from "./dataObjects";
@@ -8,11 +8,19 @@ import Card3 from '../../assets/card3.png'
 import Card4 from '../../assets/card4.png'
 import Card5 from '../../assets/card5.png'
 import Card6 from '../../assets/card6.png'
-import serviceVector1 from '../../assets/service_vector.png';
+import serviceVector1Light from '../../assets/service_vector_light.png';
 import serviceVector2 from '../../assets/serviceVector2.png';
-
+import serviceVector1Dark from '../../assets/service_vector_dark.png';
 const Services = () => {
-  console.log(cardData[0].img);
+  const [image,setImage] = useState(serviceVector1Light);
+  useEffect(() => {
+    if(localStorage.getItem("mode") === "dark"){
+      setImage(serviceVector1Dark); 
+    }else{
+      document.body.className = "light-mode";
+      setImage(serviceVector1Light);
+    }
+  }, []);
   return (
     <div className="Service">
       <h2>Our Services</h2>
@@ -40,7 +48,7 @@ const Services = () => {
           desc={cardData[2].desc}
         />
      </div>
-     <img src={serviceVector1} alt="" className="service_vector1" />
+     <img src={image} alt="" className="service_vector1" />
      <img src={serviceVector2} alt="" className="service_vector2" />
      <div className="cards">   
         <ServiceCard
