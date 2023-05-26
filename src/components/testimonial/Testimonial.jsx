@@ -23,7 +23,7 @@ const Testimonial = () => {
   const feedbacks = [
     "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestias magni quia dolore, sed expedita quidem? Iure modi vero reprehenderit laudantium nobis.",
-    "AOS allows you to animate elements as you scroll down, and up. If you scroll back to top, elements will animate to it's previous state and are ready to animate again",
+    "AOS allows you to animate elements as you scroll down, and up. If you scroll back to top, elements will animate to it's previous state and are ready to animate againf",
     "We choose because of the ability to adapt with feedback, ultimatley leading to the best experience for our members and team, Helped us a lot even in difficult situations! ",
   ];
   const leftTesti = () => {
@@ -61,7 +61,7 @@ const Testimonial = () => {
   };
   AOS.init();
   return (
-    <div className="Testimonial">
+    <div className="Testimonial" id="Testimonial">
       <Card
         name={names}
         company={companies}

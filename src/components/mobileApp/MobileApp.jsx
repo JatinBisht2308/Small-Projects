@@ -3,7 +3,7 @@ import "./mobileApp.css";
 import MobileAppImage from '../../assets/mobileApp.png'
 const MobileApp = () => {
   return (
-    <div className="mobileApp">
+    <div className="mobileApp" id="App">
       <div className="left_ma">
         <h2>Download our mobile apps</h2>
         <div className="mobileApp_underline"></div>

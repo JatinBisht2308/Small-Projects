@@ -22,7 +22,7 @@ const Services = () => {
     }
   }, []);
   return (
-    <div className="Service">
+    <div className="Service" id="Services">
       <h2>Our Services</h2>
       <div className="service_underline"></div>
       <p className="service_desc">

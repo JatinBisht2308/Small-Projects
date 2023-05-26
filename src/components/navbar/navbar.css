@@ -28,10 +28,17 @@
     font-size: 18px;
     color: var(--bold-text-color);
 }
+.nav-item:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
 .one{
 font-weight: 700;
 }
 .mode_changer{
     background: none;
     border: none;
+}
+AnchorLink{
+    text-decoration: none;
 }

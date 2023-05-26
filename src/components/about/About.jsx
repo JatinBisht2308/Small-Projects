@@ -4,7 +4,7 @@ import BackImg from '../../assets/about-element.png'
 import './about.css'
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id="About">
       <img src={BackImg} alt="" className='backimg-about' />
         <div className="left-about">
           <h1>Virtual Healthcare for you</h1>

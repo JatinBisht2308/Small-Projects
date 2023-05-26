@@ -31,7 +31,7 @@ const Article = () => {
     },
   ];
   return (
-    <div className="Article">
+    <div className="Article" id="Article">
       <h2>Check our latest article</h2>
       <div className="article_underline"></div>
       <img src={BlogVector1} className="blog-vec one" alt="" />
