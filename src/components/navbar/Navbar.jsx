@@ -30,7 +30,7 @@ const Navbar = () => {
     }
   }, []);
   return (
-    <div className="nav">
+    <div className="nav" id='nav'>
       <div className="left-nav">
         <img src={Logo} alt="logo" />
       </div>
